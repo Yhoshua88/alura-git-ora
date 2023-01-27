@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encripta/Decripta</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main>
+    <section>
+        <textarea class="entrada" id="entrada" cols="40" rows="16" placeholder="Ingrese texto Aquí"></textarea>
+        
+    </section>
+
+    
+    <section >
+    <div class="frame1">
+        <img src="img/bi_exclamation-circle-fill.svg" class="circlefill">
+        <p class="advert">Solo letras minusculas sin acentos</p>
+    </div>
+    </section>
+    <section class="frame5">
+        <div id="myDIV">
+
+        <p class="codifi1">Ningún mensaje fue encontrado</p>
+        <p class="decodifi1">Ingresa el texto que desees encriptar o desencriptar.</p>
+        </div>
+    </section>
+  <div id="myDiv1" style="display: none;">
+        <textarea class="salida" id="resultad" value="asd">
+            hola
+        </textarea>
+        </div>
+    <section>
+        <div class="frame3">
+        <button class="encriptar" onclick="encripta()">Encriptar</button>
+        <button class="desencripta" onclick="decripta()">Desencripta</button>
+        </div>
+    </section>  
+</main>
+    <img src="img/Vector.svg" class="vector">
+    <img src="img/muneco.svg" class="muneco" id="muneco">  
+    <script src="hacer.js"></script> 
+    <button onclick="copiado()" class="copiado">Copiado</button>
+    <!-------------------------------------------------------------------------------------------------------------------------------------------
+ <form>
+        <input type="text" id="frase" placeholder="ingrese una frase"><br><br>
+        <input type="text" id="caract" placeholder="ingrese un caracter"><br><br>
+
+        <button type="button" id="btn" onclick="contar()" >Submit</button>
+
+        <p id="resultado"></p><br>
+        <p id="resultad"></p>
+
+    </form>
+
+<script>
+  
+function contar(){
+  var str = document.getElementById("frase").value;
+  var caracter = document.getElementById("caract").value;
+  var indices = [];
+  var frab='';
+  
+  for (var i = 0; i < str.length; i++){
+
+    switch (str[i].toLowerCase()) {
+        case 'a':
+        frab=frab + 'ai';
+    break;
+        case 'e':
+        frab=frab + 'enter';
+    break;
+        case 'i':
+        frab=frab + 'imes';
+    break;
+        case 'o':
+        frab=frab + 'ober';
+    break;
+        case 'u':
+        frab=frab + 'ufat';
+    break;
+    default:
+    frab=frab + str[i].toLowerCase();
+        break;
+    }
+
+    if(str[i].toLowerCase() === caracter) indices.push(i);
+  }
+
+  document.getElementById("resultado").innerHTML = indices.length;
+  document.getElementById("resultad").innerHTML = frab;
+}
+
+
+</script>
+<br>
+    <textarea></textarea>
+    <br>
+    <input type="button" value="Encriptar">
+    <input type="text" name="text1" id="text1" onkeyup="copiar()">
+    <input type="text" name="text2" id="text2" >
+    <script>
+		function copiar(){
+            var str = document.getElementById("text1").value;
+  var caracter = document.getElementById("caract").value;
+  var indices = [];
+  var frab='';
+  
+  for (var i = 0; i < str.length; i++){
+
+    switch (str[i].toLowerCase()) {
+        case 'a':
+        frab=frab + 'ai';
+    break;
+        case 'e':
+        frab=frab + 'enter';
+    break;
+        case 'i':
+        frab=frab + 'imes';
+    break;
+        case 'o':
+        frab=frab + 'ober';
+    break;
+        case 'u':
+        frab=frab + 'ufat';
+    break;
+    default:
+    frab=frab + str[i].toLowerCase();
+        break;
+    }
+    document.getElementById("text2").value
+    if(str[i].toLowerCase() === caracter) indices.push(i);
+  }
+  document.getElementById("text2").value=frab; 
+    }
+    </script>
+*/-->
+</body>
+</html>
